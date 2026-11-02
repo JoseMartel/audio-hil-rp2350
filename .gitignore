@@ -1,0 +1,37 @@
+# .gitignore para audio-hil-rp2350 (RP2350 HIL Simulation)
+
+# Directorios de Compilación y Artefactos
+build/
+cmake-build-*/
+bin/
+__pycache__/
+*.pyc
+
+# Archivos Binarios del Firmware (Compilaciones)
+*.elf
+*.uf2
+*.bin
+*.hex
+*.dis
+*.map
+
+# Archivos de Control de CMake y Base de Datos de Compilación
+compile_commands.json
+.cmake/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Configuraciones locales de Editores / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.cache/
+
+# Salidas de reportes de tests HIL
+reports/
+*.png
+*.csv
